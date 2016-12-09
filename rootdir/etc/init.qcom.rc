@@ -162,6 +162,9 @@ on boot
     chown root system /proc/touchpanel/capacitive_keys_enable
     chmod 0660 /proc/touchpanel/capacitive_keys_enable
 
+    # Wifi firmware reload path
+    chown wifi wifi /sys/module/wlan/parameters/fwpath
+
 on post-fs
     start qseecomd
 
