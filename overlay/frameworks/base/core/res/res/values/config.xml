@@ -371,4 +371,7 @@
          carrier provisioning. If false: hard disabled. If true: then depends on carrier
          provisioning, availability etc -->
     <bool name="config_carrier_vt_available">true</bool>
+
+    <!-- Internal default to navigation bar value -->
+    <bool name="config_defaultToNavigationBar">false</bool>
 </resources>
