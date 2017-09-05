@@ -6,6 +6,7 @@ sourceFiles := \
                cryptfs_hw.c
 
 commonSharedLibraries := \
+                        liblog \
                         libcutils \
                         libutils \
                         libdl \
