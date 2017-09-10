@@ -416,6 +416,7 @@ service qmuxd /system/bin/qmuxd
 service netmgrd /system/bin/netmgrd
     class main
     writepid /dev/cpuset/system-background/tasks
+    setenv LD_LIBRARY_PATH /system/vendor/lib64/legacy
 
 service ipacm-diag /system/bin/ipacm-diag
     class main
